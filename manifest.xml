@@ -1,1 +1,18 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="hub" fetch="https://github.com" />
+ <!-- Common Trees -->
+ <project path="device/xiaomi/sm8150-common" name="numanmushtaq01/android_device_xiaomi_sm8150-common" remote="hub" revision="Afterlife-16" />
+ <project path="vendor/xiaomi/sm8150-common" name="numanmushtaq01/proprietary_vendor_xiaomi_sm8150-common" remote="hub" revision="lineage-23.2"  />
+ <!-- Device Trees -->
+ <project path="device/xiaomi/raphael" name="numanmushtaq01/andriod_device_xiaomi_raphael" remote="hub" revision="Afterlife-16" />
+ <project path="vendor/xiaomi/raphael" name="numanmushtaq01/proprietary_vendor_xiaomi_raphael" remote="hub" revision="lineage-23.2" />
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sm8150" name="numanmushtaq01/andriod_kernel_xiaomi_sm8150" remote="hub" revision="16.ksun" />
+ <!-- Hardware Trees -->
+ <project path="hardware/xiaomi" name="crdroidandroid/andriod_hardware_xiaomi" remote="hub" revision="16.0-raphael" />
+ <!-- Dolby Tree -->
+ <project path="hardware/dolby" name="numanmushtaq01/hardware_dolby" remote="hub" revision="16.dolby" />
+  <!-- keys -->
+<project path="vendor/afterlife-priv" name="numanmushtaq01/vendor_afterlife-priv" remote="hub" revision="16.2" />
+</manifest>
